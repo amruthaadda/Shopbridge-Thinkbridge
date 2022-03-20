@@ -1,0 +1,39 @@
+<form [formGroup]="productForm">
+    <div class="requiredStyle mb-10" *ngIf="productForm.invalid">All * marked fields are required to save the product.
+    </div>
+    <div>
+        <label>Name</label><span class="requiredStyle">*</span>
+        <input class="form-control"
+            [ngClass]="{'inputValidation': productForm.get('name')?.touched && productForm.get('name')?.invalid }"
+            type="text" formControlName="name" placeholder="Enter Name">
+    </div>
+    <div>
+        <label>Price</label><span class="requiredStyle">*</span>
+        <input class="form-control" (keypress)="onKeyPress($event)"
+            [value]="productForm.get('price')?.value | currency:'INR' :'symbol' : '1.0-0'"
+            [ngClass]="{'inputValidation': productForm.get('price')?.touched && productForm.get('price')?.invalid }"
+            type="text" formControlName="price" placeholder="Enter Price in Rupees">
+    </div>
+    <div>
+        <label>Colour</label><span class="requiredStyle">*</span>
+        <input class="form-control"
+            [ngClass]="{'inputValidation': productForm.get('colour')?.touched && productForm.get('colour')?.invalid }"
+            type="text" formControlName="colour" placeholder="Enter Colour">
+    </div>
+    <div>
+        <label>Battery Power Rating</label><span class="requiredStyle">*</span>
+        <input class="form-control"
+            [ngClass]="{'inputValidation': productForm.get('battery')?.touched && productForm.get('battery')?.invalid }"
+            type="text" formControlName="battery" placeholder="Enter Battery Power Rating in mAh">
+    </div>
+    <div>
+        <label>Description</label><span class="requiredStyle">*</span>
+        <textarea class="form-control"
+            [ngClass]="{'inputValidation': productForm.get('description')?.touched && productForm.get('description')?.invalid }"
+            type="text-area" formControlName="description" placeholder="Enter Description"></textarea>
+    </div>
+    <div align="right">
+        <button type="submit" class="btn btn-primary" (click)="onSubmit()"
+            [disabled]="productForm.invalid">Save</button>
+    </div>
+</form>

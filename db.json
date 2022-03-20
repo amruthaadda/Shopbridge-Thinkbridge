@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "name": "Redmi Note 10T 5G ",
+      "description": "Processor: Mediatek Dimensity 700 Octa-core; 7nm process; Up to 2.2GHz clock speed; Dual 5G support Display: 6.5 inch FHD+ 2400x1080 Dot display with 90Hz high refresh rate and adaptive sync technology; ; 180Hz touch sampling, Camera: 48 MP camera sensor, 0.8μm, f/1.79, 2MP depth and 2MP Macro camera lens 8 MP Front camera  Battery: 5000 mAh battery with support for 18W fast wired charging Alexa Hands-Free capable: Download the Alexa app to use Alexa hands-free. Play music, make calls, hear news, open apps, navigate, and more, all using just your voice, while on-the-go Wireless communication technology: Cellula",
+      "price": 13499,
+      "colour": "Metallic Blue",
+      "battery": 5000,
+      "id": 2
+    },
+    {
+      "name": "OPPO A15s",
+      "description": "13MP main camera + 2MP Depth camera + 2MP Macro lens with 8MP Front 16.55 centimeters (6.52-inch) HD+ Display with 1520 x 720 Pixel Resolution-Rear Fingerprint Sensor + AI face unlock| Eye comfort - filters Blue light to reduce damage to the eyes. Battery: 4230 mAh Lithium-Polymer Battery providing talk-time of 29 hours and standby time of 323 hours. Memory & Storage: 4GB Ram with 128GB Storage | Dual Nano Sim with Dual standby (4G+4G) Color OS 7.2 based on Android Version 10 Operating system with 2.3GHz Mediatek Helio P35 Octa Core Processor",
+      "price": 17999,
+      "colour": "Cyber Black",
+      "battery": 4230,
+      "id": 3
+    },
+    {
+      "name": "Tecno Spark 8 Pro",
+      "description": "48MP High Resolution AI camera | Super Night Mode |Intelligent Focus | 8MP Front Cam with Dual Front Flash  6.8 FHD+Dot-in display | 90.52% screen to body ratio | 500nits Max Brightness | 120Hz Touch Sampling Rate 33W Super Fast Charger for rapid charging | Type C  5000mAh battery | Upto 63 days long standby time Helio G85 Blazing Fast Gaming Processor | 1GHz Mali G52 GPU for Gaming greatness RAM Expansion up to 7GB (this may need an OTA update)",
+      "price": 10799,
+      "colour": "Turquoise Cyan",
+      "battery": 5000,
+      "id": 4
+    }
+  ]
+}

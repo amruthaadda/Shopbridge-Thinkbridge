@@ -1,0 +1,14 @@
+
+<div class="container-body">
+<div  class="mat-body">
+    <div mat-dialog-conent>
+        <p align="center">{{message}}</p>
+    </div>
+    <div mat-dialog-actions align="center">
+        <button  class="btn btn-primary" (click)="onConfirmClick()"
+            tabindex="1">{{confirmButtonText}}</button> &nbsp;&nbsp;&nbsp;
+        <button *ngIf="cancelButtonText !=='NA'" class="btn btn-secondary" mat-dialog-close
+            tabindex="-1">{{cancelButtonText}}</button>
+    </div>
+</div>
+</div>

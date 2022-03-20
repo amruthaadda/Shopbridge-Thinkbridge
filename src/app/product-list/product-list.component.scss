@@ -1,0 +1,55 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th {
+    background-color: #595959;
+    border: 1px solid #595959;
+    color: white;
+  }
+  td {
+    border: 1px solid #dddddd;
+  }
+  td, th {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .dialog-body {
+    opacity: 0.3;
+    pointer-events: none;
+  }
+
+  .dialog-body-op {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .productsList {
+    max-height: 500px;
+    overflow-y: scroll;
+  }
+
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
+  .ellipsesDesc {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 51em;
+    overflow: hidden;
+    display: block;
+  }
+
+  .ellipsesDesc:hover {
+    overflow: visible;
+    white-space: normal;
+    word-wrap: break-word;
+  }
