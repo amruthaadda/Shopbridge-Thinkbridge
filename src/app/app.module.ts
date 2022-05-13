@@ -16,6 +16,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { HttpErrorInterceptorService } from './interceptors/http-error-interceptor.service';
 import { LoaderService } from './interceptors/loader.service';
+import { ViewProductComponent } from './view-product/view-product.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { LoaderService } from './interceptors/loader.service';
     ProductListComponent,
     BsNavbarComponent,
     ConfirmationDialogComponent,
+    ViewProductComponent,
   ],
   imports: [
     BrowserModule,

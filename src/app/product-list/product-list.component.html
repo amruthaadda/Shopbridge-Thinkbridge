@@ -1,8 +1,8 @@
 <div style="margin:0 30px;" id="products-list">
-    <div align="right">
+    <div align="right" style="margin-right: 60px;">
         <pagination-controls (pageChange)="pageChanged($event)"></pagination-controls>
     </div>
-    <table>
+    <!-- <table>
         <tr>
             <th *ngFor = "let header of tableHeaders"> {{header}}</th>
         </tr>
@@ -23,5 +23,24 @@
                 </div>
             </td>
         </tr>
-    </table>
+    </table> -->
+    <div class="col">
+        <div class="container">
+            <div class="row row-cols-3">
+                <div class="col" *ngFor="let product of productsList| paginate: config">
+                    <div class="card">
+                        <img [src]="product.imageURL" class="card-img-top" alt="{{ product.name }}">
+                        <div class="card-body">
+                            <a class="card-title"  (click)="onViewClick(product)">{{ product.name }}</a>
+                            <p class="card-text">{{ product.price | currency:'INR' : true }}</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-primary" (click)="onEdit(product)">Edit</button>
+                            <button class="btn btn-danger"(click)="onDelete(product.id!)">Delete</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

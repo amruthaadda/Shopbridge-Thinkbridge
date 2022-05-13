@@ -15,14 +15,14 @@ import { LoaderService } from '../interceptors/loader.service';
 export class ProductListComponent implements OnInit {
 
   config: any;
-  tableHeaders: string[] = ['Name', 'Description', 'Price', 'Colour', 'Battery', 'Actions'];
+  tableHeaders: string[] = ['Name', 'Description', 'Price', 'Colour', 'Battery', 'Actions','ImageURL'];
   productsList: Product[] = [];
   constructor(private productService: ProductService, private router: Router, public dialog: MatDialog,
     public loaderService: LoaderService) {
     this.config = {
-      itemsPerPage: 5,
+      itemsPerPage: 6,
       currentPage: 1,
-      totalItems: this.productsList.length
+      totalItems: this.productsList?.length
     };
   }
 
@@ -49,6 +49,9 @@ export class ProductListComponent implements OnInit {
   onDelete(productId: number) {
     // document.getElementById('products-list')?.classList.add('dialog-body');
     this.openDialog("Are you sure you want to delete the product ?", productId);
+  }
+  onViewClick(product : Product) {
+    this.router.navigate(['/view'], { queryParams: { id: product.id } });
   }
 
   openDialog(message: string, id: number) {

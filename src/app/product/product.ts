@@ -5,4 +5,6 @@ export class Product {
     colour?: string;
     battery?: number;
     id?: number;
+    imageURL?: string;
+
 }

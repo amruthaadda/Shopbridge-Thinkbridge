@@ -1,28 +1,67 @@
 {
   "products": [
     {
-      "name": "Redmi Note 10T 5G ",
-      "description": "Processor: Mediatek Dimensity 700 Octa-core; 7nm process; Up to 2.2GHz clock speed; Dual 5G support Display: 6.5 inch FHD+ 2400x1080 Dot display with 90Hz high refresh rate and adaptive sync technology; ; 180Hz touch sampling, Camera: 48 MP camera sensor, 0.8μm, f/1.79, 2MP depth and 2MP Macro camera lens 8 MP Front camera  Battery: 5000 mAh battery with support for 18W fast wired charging Alexa Hands-Free capable: Download the Alexa app to use Alexa hands-free. Play music, make calls, hear news, open apps, navigate, and more, all using just your voice, while on-the-go Wireless communication technology: Cellula",
-      "price": 13499,
-      "colour": "Metallic Blue",
-      "battery": 5000,
+      "name": "Redmi Note 10T 5G",
+      "description": "Processor: Mediatek Dimensity 700 Octa-core; 7nm process; Up to 2.2GHz clock speed; Dual 5G support\nDisplay: 6.5 inch FHD+ 2400x1080 Dot display with 90Hz high refresh rate and adaptive sync technology; ; 180Hz touch sampling,\nCamera: 48 MP camera sensor, 0.8μm, f/1.79, 2MP depth and 2MP Macro camera lens 8 MP Front camera\nBattery: 5000 mAh battery with support for 18W fast wired charging\nAlexa Hands-Free capable: Download the Alexa app to use Alexa hands-free. Play music, make calls, hear news, open apps, navigate, and more, all using just your voice, while on-the-go\nWireless communication technology: Cellular",
+      "price": "12999",
+      "colour": "Graphite Black",
+      "battery": "5000 mAh",
+      "imageURL": "https://m.media-amazon.com/images/I/81oFpnDM2EL._SL1500_.jpg",
       "id": 2
     },
     {
-      "name": "OPPO A15s",
-      "description": "13MP main camera + 2MP Depth camera + 2MP Macro lens with 8MP Front 16.55 centimeters (6.52-inch) HD+ Display with 1520 x 720 Pixel Resolution-Rear Fingerprint Sensor + AI face unlock| Eye comfort - filters Blue light to reduce damage to the eyes. Battery: 4230 mAh Lithium-Polymer Battery providing talk-time of 29 hours and standby time of 323 hours. Memory & Storage: 4GB Ram with 128GB Storage | Dual Nano Sim with Dual standby (4G+4G) Color OS 7.2 based on Android Version 10 Operating system with 2.3GHz Mediatek Helio P35 Octa Core Processor",
-      "price": 17999,
-      "colour": "Cyber Black",
-      "battery": 4230,
+      "name": "Samsung Galaxy M33 5G",
+      "description": "Exynos 1280 Octa Core 2.4GHz 5nm Processor with the 12 band support for a True 5G experience\n16.72 centimeters (6.6-inch) LCD Display, FHD+ resolution, 1080x2400 pixels protected by Gorilla Glass 5\nVersatile Quad camera setup-50MP (F1.8)+ 5MP (F2.2/UW- 123 FOV) + 2MP (F2.4/Depth) + 2MP (F2.4/Macro) QuadCamera| 8MP (F1.8) Front Camera\nMassive 6000 mAh Battery | Memory, Storage & SIM: 6GB RAM | 128GB internal memory expandable up to 1TB| SIM 1 + SIM 2+ Micro SD\nLatest Android v12.0, One UI 4 operating system.\nIntelligent Voice Focus | Power Cool Technology | Auto Data Switching\nConnector type: 3.5mm jack",
+      "price": "17999",
+      "colour": "Mystique Green",
+      "battery": "6000 mAh",
+      "imageURL": "https://m.media-amazon.com/images/I/81I3w4J6yjL._SX679_.jpg",
       "id": 3
     },
     {
-      "name": "Tecno Spark 8 Pro",
-      "description": "48MP High Resolution AI camera | Super Night Mode |Intelligent Focus | 8MP Front Cam with Dual Front Flash  6.8 FHD+Dot-in display | 90.52% screen to body ratio | 500nits Max Brightness | 120Hz Touch Sampling Rate 33W Super Fast Charger for rapid charging | Type C  5000mAh battery | Upto 63 days long standby time Helio G85 Blazing Fast Gaming Processor | 1GHz Mali G52 GPU for Gaming greatness RAM Expansion up to 7GB (this may need an OTA update)",
-      "price": 10799,
-      "colour": "Turquoise Cyan",
-      "battery": 5000,
+      "name": "OnePlus Nord CE 2 Lite 5G",
+      "description": "Camera: 64MP Main Camera with EIS; 2MP Depth Lens and 2MP Macro Lens; Front (Selfie) Camera: 16MP Sony IMX471\nCamera Features: AI scene enhancement, Dual-View Video, HDR, Night Portrait, Panorama Mode, Retouch Filters, 1080p video at 30 fps, SLO-MO: 720p video at 120 fps, TIME-LAPSE: 1080p video at 30 fps, Video editor, Face unlock, Screen flash, HDR, NIGHT, PORTRAIT, TIME-LAPSE, Retouch, Filters\nDisplay: 6.59 Inches; 120 Hz Refresh Rate; Support sRGB, Display P3; Resolution: 2412 x 1080 pixels 402ppi; Aspect Ratio: 20:9\nDisplay Features: Ambient display, Dark mode\nOperating System: Oxygen OS based on Android 12\nProcessor: Qualcomm Snapdragon 695 5G\nBattery & Charging: 5000 mAh with 33W SuperVOOC\nAlexa Hands-Free capable: Download the Alexa app to use Alexa hands-free. Play music, make calls, hear news, open apps, navigate, and more, all using just your voice, while on-the-go.",
+      "price": "17999",
+      "colour": "(Blue Tide",
+      "battery": "5000 mAh",
+      "imageURL": "https://m.media-amazon.com/images/I/71AvQd3VzqL._SX679_.jpg",
       "id": 4
+    },
+    {
+      "name": "OPPO F21 Pro",
+      "description": "Ultra-slim Retro Design with Industry First Fiberglass-leather finish and Orbit Light for Notifications\nAI Triple Camera setup - 64MP + 2MP + 2MP with microlens| 32MP Front Camera with Flagship Sony IMX709 Sensor\nBig 4500 mAh Battery with 33W SUPERVOOC Charging\n6.43\" inch (16.33cm) FHD+ AMOLED Punch-hole Display with 2400x1080 pixels. Larger Screen to Body ratio of 90.8%\nMemory, Storage & SIM: 8 GB RAM | 128 GB ROM | Expandable Upto 1TB | SIM 1 + SIM 2+ Micro SD",
+      "price": "22999",
+      "colour": "Sunset Orange",
+      "battery": "4500 mAh",
+      "imageURL": "https://m.media-amazon.com/images/I/81W6rHmWHhL._SX679_.jpg",
+      "id": 5
+    },
+    {
+      "name": "Xiaomi 11 Lite NE 5G",
+      "description": "Processor: 5G enabled Qualcomm Snapdragon 778G with Kryo 670 Octa-core; 6nm process; Up to 2.4GHz clock speed; Liquidcool technology, Support for 12 5G bands\nCamera: 64 MP Triple Rear camera with 8MP Ultra-wide and 5MP Super macro | 20 MP Front camera\nDisplay: 90Hz high refresh rate, 10-bit FHD+ OLED Dot display; 16.6 centimeters (6.55 inch); Dolby Vision support\nElegant design that is just 6.81mm slim and 158gms light, makes it a thing of art to flaunt.\nMemory, Storage & SIM: 6GB LPDDR4X RAM | 128GB UFS 2.2 storage\nAlexa Hands-Free capable: Download the Alexa app on to use Alexa hands-free. Play music, make calls, hear news, open apps, navigate, and more, using just your voice, while on-the-go. Just ask and Alexa will respond instantly.",
+      "price": "26999",
+      "colour": "Jazz Blue",
+      "battery": "4250 mAh",
+      "imageURL": "https://m.media-amazon.com/images/I/71XmlboxNZL._SX679_.jpg",
+      "id": 6
+    },
+    {
+      "name": "iQOO Z6 Pro 5G",
+      "description": "Snapdragon 778G comes with octa-core processor that adopts the 6nm process and Kryo 670 architecture.\n66W FlashCharge\nLiquid Cooling system intelligently sense the heat source and adapt the optimal cooling solution, thereby effectively cool down the phone and reduce the CPU temperature by 12 degrees and surface temperature by 3 degree.\nEquipped with 64MP triple camera system, 8MP Wide-angle camera, 2MP Macro camera\niQOO Z6 Pro 5G display provides immersive visual experience with true color contrast and a peak brightness of 1300 nits. HDR10+ helps in providing right color tone mapping for each scene. The display offers 90Hz refersh rate and 180Hz Touch Sampling Rate for a smooth touch response.",
+      "price": "23999",
+      "colour": "Legion Sky",
+      "battery": "4700 mAh",
+      "imageURL": "https://m.media-amazon.com/images/I/615YGGce1-L._SX679_.jpg",
+      "id": 7
+    },
+    {
+      "name": "Realme GT Master Edition",
+      "description": "Rear Camera: 64 MP + 8 MP + 2 MP\nFront Camera: 32 MP\nMemory: 8 GB RAM and 128 GB internal memory\nDimensions: 159.2 mmx73.5 mmx8 mm\nColor options: Voyager Grey\nBattery Capacity:: 4300 mAh Li-Polymer battery\nWarranty information: 1 Year Manufacturer Warranty is provided by the manufacturer from the date of purchase",
+      "price": "28999",
+      "colour": "Voyager Grey",
+      "battery": "4300 mAh",
+      "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEGDONu_I5vw8ViF1xwl35jsfKZs13hSdDb9f8ytKZtGtKpGQlQJc9bk70Xf3GewLYawY&usqp=CAU",
+      "id": 8
     }
   ]
 }

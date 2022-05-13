@@ -5,11 +5,12 @@
 }
 
 form {
-    max-width: 50%;
+    // max-width: 50%;
     border: 2px solid #b3b3b3;
-    max-height: 500px;
+    // height: 600px;
+    max-height: 600px;
     overflow: auto;
-    margin: 2em 22em;
+    // margin: 2em 22em;
     padding: 2em 4em 2em 4em;
     background: #d9d9d9;
 }
@@ -64,3 +65,36 @@ form {
 .mb-10 {
     margin-bottom: 10px;
 }
+
+.card {
+    width: 50%;
+    // height: 30em;
+    // padding-left: 2.3em;
+    // padding-right: 2em;
+    height: 550px;
+    padding-top: 1.5em;
+    margin: 0%;
+
+}
+.card-img-top {
+    height: 400px;
+    width: 20em;
+    align-items: center;
+    padding: 0;
+    margin: 0%;
+}
+.row {
+    // margin-top: 4.5em;
+    margin-left: 3em;
+    margin-right: 3em;
+    // border: 2px solid #b3b3b3;
+    // max-height: 700px;
+    // padding: 1em;
+    // padding-right: 0;
+}
+// .firs-div {
+//     width: 60%;
+// }
+// // .next-div {
+// //     width: 20%;
+// // }

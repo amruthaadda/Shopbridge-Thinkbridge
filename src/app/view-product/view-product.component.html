@@ -1,0 +1,18 @@
+<p>view-product works!</p>
+<div class="row">
+    <div style="display: flex;">
+        <div class="col-mid-6 first-div">
+            <img src="productItem?.imageURL" alt="{{productItem?.name}}">
+        </div>
+        <div class="col-mid-6">
+            <h1>{{productItem?.name}}</h1>
+            <label><b>Model Name: </b></label> &nbsp;<span>{{productItem?.name}}</span><br>
+            <label><b>Price: </b></label> &nbsp;<span>{{productItem?.price | currency: 'INR' : true}}</span><br>
+            <label><b>Colour: </b></label> &nbsp;<span>{{productItem?.colour}}</span><br>
+            <label><b>Battery: </b></label> &nbsp;<span>{{productItem?.battery}}</span><br>
+            <label><b>About this Item: </b></label><br>
+            <label>{{productItem?.description}}</label>
+
+        </div>
+    </div>
+</div>

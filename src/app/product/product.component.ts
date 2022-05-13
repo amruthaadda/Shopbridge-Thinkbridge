@@ -20,12 +20,14 @@ export class ProductComponent implements OnInit {
     private activatedRoute: ActivatedRoute, public loaderService: LoaderService) { }
 
   ngOnInit(): void {
+    
     this.productForm = this.fb.group({
       name: new FormControl('', [Validators.required]),
       description: new FormControl('', [Validators.required]),
       price: new FormControl('', [Validators.required]),
       colour: new FormControl('', [Validators.required]),
-      battery: new FormControl('', [Validators.required])
+      battery: new FormControl('', [Validators.required]),
+      imageURL: new FormControl('',[Validators.required],)
     });
     this.activatedRoute.queryParams.subscribe(params => {
       if (params['id']) {
@@ -37,7 +39,8 @@ export class ProductComponent implements OnInit {
             description: respose.description,
             price: respose.price,
             colour: respose.colour,
-            battery: respose.battery
+            battery: respose.battery,
+            imageURL: respose.imageURL
           });
           this.editMode = true;
           this.loaderService.isLoading.next(false);
@@ -58,7 +61,8 @@ export class ProductComponent implements OnInit {
       });
     }
     this.productForm.reset();
-    this.router.navigate(['/']);
+    // this.router.navigate(['/']);
+    window.location.assign('/');
   }
 
   onKeyPress(event: any) {

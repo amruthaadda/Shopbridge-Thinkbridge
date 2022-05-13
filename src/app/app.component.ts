@@ -11,7 +11,7 @@ export class AppComponent implements OnInit{
   showLoader!: boolean;
   constructor(private loaderService: LoaderService){}
   ngOnInit(): void {
-    this.loaderService.isLoading.next(true);
+    // this.loaderService.isLoading.next(true);
     this.loaderService.isLoading.subscribe((value: boolean)=> this.showLoader = value);
   }
 }
